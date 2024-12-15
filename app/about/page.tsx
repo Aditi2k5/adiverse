@@ -83,23 +83,20 @@ export default function About() {
             <span className="font-pixel text-retro-green mr-2 text-lg">PLAYER:</span>
             Greetings, player! I'm a passionate developer with a love for creating
             immersive digital experiences. My journey in the world of coding
-            started when I first laid hands on a classic NES console, sparking
-            a lifelong fascination with technology and interactive design.
+            started when I made my first webpage using HTML in school in 2016.
           </p>
 
           <p className="text-xl mb-4 relative z-10 leading-relaxed">
             <span className="font-pixel text-retro-orange mr-2 text-lg">SKILLS:</span>
             Since then, I've leveled up my skills across various programming languages
-            and frameworks. My quest is to create applications that are not just
+            and frameworks such as React, Next, Python and many more. My quest is to create applications that are not just
             functional, but truly engaging – transforming lines of code into
             memorable user experiences.
           </p>
 
           <p className="text-xl relative z-10 leading-relaxed">
             <span className="font-pixel text-retro-blue mr-2 text-lg">BONUS:</span>
-            When I'm not in coding mode, you'll find me exploring virtual worlds,
-            participating in game jams, or tinkering with retro hardware. 
-            Ready to team up and embark on an epic development adventure?
+            When I'm not in coding mode, you'll find me jamming to music, reading books, watching the latest kdramas or probably coming up with a new start-up idea 'cause why not!
           </p>
         </div>
       </div>
