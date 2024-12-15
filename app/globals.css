@@ -1,21 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body {
+  image-rendering: pixelated;
+  -webkit-font-smoothing: none;
 }
 
-@media (prefers-color-scheme: dark) {
+:root {
+  --pixel-size: 2px;
+}
+
+@media (min-width: 768px) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --pixel-size: 3px;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@media (min-width: 1024px) {
+  :root {
+    --pixel-size: 4px;
+  }
 }
+
+* {
+  box-shadow: 0 0 0 var(--pixel-size) currentColor;
+}
+
+button, a {
+  position: relative;
+  overflow: hidden;
+}
+
+button::after, a::after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--pixel-size));
+  left: calc(-1 * var(--pixel-size));
+  right: calc(-1 * var(--pixel-size));
+  bottom: calc(-1 * var(--pixel-size));
+  background: currentColor;
+  opacity: 0;
+}
+
+button:hover::after, a:hover::after {
+  opacity: 0.1;
+}
+
+button:active::after, a:active::after {
+  opacity: 0.2;
+}
+
+.animate-beam-fast {
+  animation: beam 5s linear infinite;
+}
+
+@keyframes beam {
+  0%, 100% {
+    transform: translateX(-100%) rotate(45deg);
+  }
+  50% {
+    transform: translateX(100%) rotate(45deg);
+  }
+}
+
+.pixelated {
+  image-rendering: pixelated;
+}
+
