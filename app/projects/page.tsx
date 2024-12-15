@@ -59,7 +59,7 @@ const projects = [
     websiteImage: '/projects/adiverse.png',
     techStack: ['NextJS','TailwindCSS','Typescript'],
     links: {
-      github: 'https://github.com/yourproject/retro-portfolio',
+      github: 'https://github.com/Aditi2k5/adiverse',
       demo: 'https://yourportfolio.com'
     },
     fullDescription: 'A pixel-art inspired portfolio website showcasing projects with a nostalgic 80s video game aesthetic, demonstrating creative web design and frontend development skills.'
