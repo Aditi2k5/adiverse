@@ -1,36 +1,11 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+WELCOME TO ADIVERSE
+This is my personal portfolio website with an 80s inspired game-themed platform with pixelated images, matrix inspired terminal wrtitten resume, gaming type animations, neon writing and much more. 
+It has been made using NextJS, Typescript, TialwindCSS and Shadcn Ui for the overall look and UI of the website.
 
-## Getting Started
+Made for the Codedex Holiday Hackathon for Track 2 'Now It's Personal', it delivers a functional prototype with a list of journey, skills, activities and a lot more.
 
-First, run the development server:
+Explore ADIVERSE and be taken back to the 80s with nostalgia.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Check out the website here: https://adiverse-uo78.vercel.app/
+![logo](https://github.com/user-attachments/assets/503a42c7-1021-4b4e-bc41-3282b65491f8)
+![adiverse](https://github.com/user-attachments/assets/1980efd4-3387-412e-9caa-739cd22e4de7)
